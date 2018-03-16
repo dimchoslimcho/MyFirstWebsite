@@ -63,10 +63,12 @@ if ( isset($_POST['email']) && isset($_POST['pass']) ) {
 <div class="container">
 <h1>Please Log In</h1>
 <?php
-// Note triple not equals and think how badly double
-// not equals would work here...
+
 flash_message();
 ?>
+/*For login use umsi@umich.edu for email
+  and php123 for password
+*/
 <form method="POST">
 <p>User Name:
 <input type="text" name="email" id = 'email'></p>
