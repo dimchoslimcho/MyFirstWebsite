@@ -87,7 +87,7 @@ if(flag_sch == 1){
     )
     console.log(school_id);
     for(i=0; i < school_id; i++){
-      console.log("pichinja");
+      
       school = schools[i]
       $('#edu_fields').append(
         '<li>'+school['year']+': '+school['name']+'</li>'
