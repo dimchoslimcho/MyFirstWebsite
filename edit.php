@@ -143,7 +143,6 @@ flash_message();
 <script>
 flag_sch = <?= htmlentities($flag_sch) ?>;
 school_id = <?= htmlentities($school_id) ?>;
-console.log("cicki");
 if(flag_sch == 1){
   schools = new Array();
   school = new Array();
