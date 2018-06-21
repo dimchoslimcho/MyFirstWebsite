@@ -102,7 +102,7 @@ if(flag_sch == 1){
 }
 flag = <?= htmlentities($flag) ?>;
 position_id = <?= htmlentities($position_id) ?>;
-console.log('cicinja');
+
 if(flag == 1){
   positions = new Array();
   position = new Array();
